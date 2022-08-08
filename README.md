@@ -1,4 +1,4 @@
-# API FAKE LOGIN
+# API LOGIN
 
 Este projeto é apenas uma api que tem como proposito estudos primários em desenvolvimentos front-end para todo ela entrega dois end-points um de sign-in e sign-up.
 
