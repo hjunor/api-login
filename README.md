@@ -6,7 +6,7 @@ Este projeto é apenas uma api que tem como proposito estudos primários em dese
 
 #### Faz login na aplicação
 
-```http
+```bash
   GET /api/login
 ```
 
@@ -22,7 +22,7 @@ Content-Type: application/json
 
 #### Cria usuário na aplicação
 
-```http
+```bash
   GET /api/create
 ```
 
