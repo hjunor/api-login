@@ -41,7 +41,7 @@ export default async function login(req: NextApiRequest, res: NextApiResponse) {
       const token = sign({ id: user.id }, secret, {
         expiresIn: '4h',
       });
-      return res.status(201).json({
+      return res.status(200).json({
         user: {
           name: user.name,
           email: user.email,
