@@ -22,6 +22,19 @@ Content-Type: application/json
 | :--------- | :------- | :-------------- |
 | `password` | `string` | **Obrigatório** |
 
+Resposta `200`
+
+```json
+{
+  "user": {
+    "name": "exemple",
+    "email": "exemple@mail.com",
+    "phone": "+5599999999999"
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZjEyMDJlMTYxZThkMjExNGU3N2MzMyIsImlhdCI6MTY2MDIxNTY4MiwiZXhwIjoxNjYwMjMwMDgyfQ.NRevoNG_nlGjMbsW85KxlRpzpp_uX-qeOE9vvfX7E04"
+}
+```
+
 #### Cria usuário na aplicação
 
 ```bash
@@ -45,6 +58,14 @@ Content-Type: application/json
 | Parâmetro | Tipo     | Descrição       |
 | :-------- | :------- | :-------------- |
 | `phone`   | `string` | **Obrigatório** |
+
+Resposta `201`
+
+```json
+{
+  "message": "criado com Sucesso"
+}
+```
 
 ## Variáveis de Ambiente
 
